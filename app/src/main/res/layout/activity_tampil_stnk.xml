@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tampil_stnk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nanz.dompetku.Activity.TampilSTNK">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/stnkForm_Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+                android:background="@color/colorPrimary"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingTop="3dp"
+                    android:paddingLeft="3dp"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemilik\nNo Registrasi\nAlamat\nNo STNK\nMerk\nJenis\nModel\nTahun Pembuatan\nBahan Bakar\nWarna\nBerlaku Hingga"/>
+                <TextView
+                    android:paddingTop="3dp"
+                    android:paddingLeft="3dp"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:"/>
+                <TextView
+                    android:id="@+id/tampil_STNK"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="3dp"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

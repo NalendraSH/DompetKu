@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DompetKu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="optionResources">
+        <item>Kartu Tanda Penduduk</item>
+        <item>Surat Izin Mengemudi</item>
+        <item>Surat Tanda Nomor Kendaraan</item>
+        <item>Kartu Tanda Mahasiswa</item>
+        <item>Kartu Tanda Pelajar</item>
+    </string-array>
+    <string-array name="pilihanPengingatResource">
+        <item>1 hari</item>
+        <item>2 hari</item>
+        <item>5 hari</item>
+        <item>1 minggu</item>
+        <item>2 minggu</item>
+        <item>1 bulan</item>
+    </string-array>
+    <string name="optionTitle">Pilih Kartu Identitas</string>
+    <string name="title_activity_tampil_ktp">TampilKTP</string>
+    <string name="confirmationMessage">
+        Anda sudah memiliki data ini
+        \nApakah anda ingin mengubahnya?
+    </string>
+</resources>
